@@ -1,0 +1,650 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7167067635,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on DVLAs Vehicles Information Page",
+            "match": {
+              "location": "SearchSteps.i_am_on_DVLAs_Vehicles_Information_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6741530803,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I proceed to check vehicles specific details",
+            "match": {
+              "location": "SearchSteps.i_proceed_to_check_vehicles_specific_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "The user enters a valid vehicle registration number",
+        "description": "",
+        "id": "user;the-user-enters-a-valid-vehicle-registration-number;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 104544850,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter vehicle registration number KN09KTP in the searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KN09KTP",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchSteps.i_enter_vehicle_registration_number_KN_KTP(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 871689340,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "press the continue button",
+            "match": {
+              "location": "SearchSteps.press_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126426655,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the vehicles make MERCEDES-BENZ and colour SILVER should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MERCEDES-BENZ",
+                  "offset": 18
+                },
+                {
+                  "val": "SILVER",
+                  "offset": 43
+                }
+              ],
+              "location": "SearchSteps.the_vehicles_make_and_colour_should_be_displayed(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test-Done"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 578470117,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on DVLAs Vehicles Information Page",
+            "match": {
+              "location": "SearchSteps.i_am_on_DVLAs_Vehicles_Information_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3674594214,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I proceed to check vehicles specific details",
+            "match": {
+              "location": "SearchSteps.i_proceed_to_check_vehicles_specific_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "The user enters an invalid vehicle registration number",
+        "description": "",
+        "id": "user;the-user-enters-an-invalid-vehicle-registration-number;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 87194675,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter vehicle registration number 1234567 in the searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchSteps.i_enter_vehicle_registration_number_KN_KTP(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99709825,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "press the continue button",
+            "match": {
+              "location": "SearchSteps.press_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106197716,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "an error page should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "page",
+                  "offset": 9
+                }
+              ],
+              "location": "SearchSteps.an_error_should_be_displayed(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test-Done"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 514213997,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on DVLAs Vehicles Information Page",
+            "match": {
+              "location": "SearchSteps.i_am_on_DVLAs_Vehicles_Information_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 688982284,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I proceed to check vehicles specific details",
+            "match": {
+              "location": "SearchSteps.i_proceed_to_check_vehicles_specific_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "The user enters an invalid formatted vehicle registration number",
+        "description": "",
+        "id": "user;the-user-enters-an-invalid-formatted-vehicle-registration-number;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92682883,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter vehicle registration number ABC1234 in the searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABC1234",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchSteps.i_enter_vehicle_registration_number_KN_KTP(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 602964650,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "press the continue button",
+            "match": {
+              "location": "SearchSteps.press_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84793379,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "an error message should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "message",
+                  "offset": 9
+                }
+              ],
+              "location": "SearchSteps.an_error_should_be_displayed(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test-Done"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 520018327,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on DVLAs Vehicles Information Page",
+            "match": {
+              "location": "SearchSteps.i_am_on_DVLAs_Vehicles_Information_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1008883030,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I proceed to check vehicles specific details",
+            "match": {
+              "location": "SearchSteps.i_proceed_to_check_vehicles_specific_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "The user searches for a vehicle using external data file1.csv",
+        "description": "",
+        "id": "user;the-user-searches-for-a-vehicle-using-external-data-\u003cfile-name\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1571579,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I get external test data file1.csv",
+            "match": {
+              "arguments": [
+                {
+                  "val": "file1.csv",
+                  "offset": 25
+                }
+              ],
+              "location": "SearchSteps.i_get_external_test_data(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93810658,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter a vehicles registration number in the searchBox",
+            "match": {
+              "location": "SearchSteps.i_enter_a_vehicles_registration_number_in_the_searchBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 575366374,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "press the continue button",
+            "match": {
+              "location": "SearchSteps.press_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32434,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should be taken to the relevant page",
+            "match": {
+              "location": "SearchSteps.i_should_be_taken_to_the_relevant_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test-Done"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 830299109,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on DVLAs Vehicles Information Page",
+            "match": {
+              "location": "SearchSteps.i_am_on_DVLAs_Vehicles_Information_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2107541851,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I proceed to check vehicles specific details",
+            "match": {
+              "location": "SearchSteps.i_proceed_to_check_vehicles_specific_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "The user searches for a vehicle using external data file2.csv",
+        "description": "",
+        "id": "user;the-user-searches-for-a-vehicle-using-external-data-\u003cfile-name\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1202085,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I get external test data file2.csv",
+            "match": {
+              "arguments": [
+                {
+                  "val": "file2.csv",
+                  "offset": 25
+                }
+              ],
+              "location": "SearchSteps.i_get_external_test_data(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95672494,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter a vehicles registration number in the searchBox",
+            "match": {
+              "location": "SearchSteps.i_enter_a_vehicles_registration_number_in_the_searchBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 580634116,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "press the continue button",
+            "match": {
+              "location": "SearchSteps.press_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30791,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should be taken to the relevant page",
+            "match": {
+              "location": "SearchSteps.i_should_be_taken_to_the_relevant_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test-Done"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 573468409,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on DVLAs Vehicles Information Page",
+            "match": {
+              "location": "SearchSteps.i_am_on_DVLAs_Vehicles_Information_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 603829675,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I proceed to check vehicles specific details",
+            "match": {
+              "location": "SearchSteps.i_proceed_to_check_vehicles_specific_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 47,
+        "name": "The user searches for a vehicle using external data file3.csv",
+        "description": "",
+        "id": "user;the-user-searches-for-a-vehicle-using-external-data-\u003cfile-name\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5050974,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I get external test data file3.csv",
+            "match": {
+              "arguments": [
+                {
+                  "val": "file3.csv",
+                  "offset": 25
+                }
+              ],
+              "location": "SearchSteps.i_get_external_test_data(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95580942,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter a vehicles registration number in the searchBox",
+            "match": {
+              "location": "SearchSteps.i_enter_a_vehicles_registration_number_in_the_searchBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 481566799,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "press the continue button",
+            "match": {
+              "location": "SearchSteps.press_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42286,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should be taken to the relevant page",
+            "match": {
+              "location": "SearchSteps.i_should_be_taken_to_the_relevant_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test-Done"
+          }
+        ]
+      }
+    ],
+    "name": "user",
+    "description": "As a user of the website\r\nI want to be able to enter a vehicle registration number\r\nSo I check the vehicles make and colour.",
+    "id": "user",
+    "keyword": "Feature",
+    "uri": "search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test-Done"
+      }
+    ]
+  }
+]
